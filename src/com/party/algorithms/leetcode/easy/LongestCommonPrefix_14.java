@@ -1,6 +1,7 @@
 package com.party.algorithms.leetcode.easy;
 
 public class LongestCommonPrefix_14 {
+
   public String hyeji(String[] strs) {
     if (strs.length == 1) {
       return strs[0];
@@ -32,4 +33,5 @@ public class LongestCommonPrefix_14 {
 
     return sb.toString();
   }
+
 }
