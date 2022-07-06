@@ -10,8 +10,9 @@ public class AlgoMain {
         new MergeTwoLists();*/
 
         // 22-07-06
-        new  RemoveDuplicates();
-
+//        new  RemoveDuplicates();
+        new RemoveElement();
+//        new StrStr();
 
     }
 }
