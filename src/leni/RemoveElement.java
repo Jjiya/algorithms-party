@@ -29,7 +29,7 @@ public class RemoveElement implements Solution {
     public int removeElement(int[] nums, int val) {
 
         if(nums.length == 0){
-            return  nums.length;
+            return  0;
         }
 
         int endIndex = nums.length-1;
