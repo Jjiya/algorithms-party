@@ -1,6 +1,9 @@
 package leni;
 /*
 * URL : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+*  in-place algorithm(= 제자리 정렬)
+*    - 다른 배열 공간을 생성하지 않고 기존에 있는 배열을 수정하여 정렬하는 것
+*    - 대표적으로 버블정렬이 있다.
 * */
 
 import java.util.Arrays;

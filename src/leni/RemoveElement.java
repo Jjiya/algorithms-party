@@ -17,13 +17,13 @@ public class RemoveElement implements Solution {
         int val = 3;
         System.out.println(this.removeElement(num, val));*/
 
-/*        int[] num1 = {0, 1, 2, 2, 3, 0, 4, 2};
+        int[] num1 = {0, 1, 2, 2, 3, 0, 4, 2};
         int val1 = 2;
-        System.out.println(this.removeElement(num1, val1));*/
+        System.out.println(this.removeElement(num1, val1));
 
-        int[] num2 = {1};
+/*        int[] num2 = {1};
         int val2 = 1;
-        System.out.println(this.removeElement(num2, val2));
+        System.out.println(this.removeElement(num2, val2));*/
     }
 
     public int removeElement(int[] nums, int val) {
