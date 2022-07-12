@@ -1,10 +1,21 @@
-package com.party.algorithms.leetcode.easy;
+package com.party.algorithms.leetcode.easy.hyeji.june_5;
+
+import com.party.algorithms.leetcode.easy.hyeji.Solution;
 
 import java.util.Stack;
 
-public class ValidParentheses_20 {
+public class ValidParentheses_20 implements Solution {
+  public ValidParentheses_20() {
+    run(this);
+  }
 
-  public boolean hyeji(String s) {
+  @Override
+  public void process() {
+    String s = "()[][{}]";
+    isValid(s);
+  }
+
+  public boolean isValid(String s) {
     Stack<Character> brackets = new Stack<>();
     Stack<Character> waitClose = new Stack<>();
 
@@ -37,5 +48,6 @@ public class ValidParentheses_20 {
       default -> ' ';
     };
   }
+
 
 }

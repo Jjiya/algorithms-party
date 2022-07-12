@@ -1,10 +1,40 @@
-package com.party.algorithms.leetcode.easy;
+package com.party.algorithms.leetcode.easy.hyeji.june_4;
+
+import com.party.algorithms.leetcode.easy.hyeji.Solution;
 
 import java.util.HashMap;
 
-public class RomantoInteger_13 {
+public class RomantoInteger_13 implements Solution {
+  public RomantoInteger_13() {
+    run(this);
+  }
 
-  public int hyeji(String s) {
+  @Override
+  public void process() {
+    String s = "MCMXCIV";
+    romanToInt(s);
+  }
+
+  public int romanToInt(String s) {
+    int sum = 0, i = 0;
+
+    while (i < s.length() - 1) {
+      int num = convertRomanToNum(s.charAt(i));
+      int nextNum = convertRomanToNum(s.charAt(i + 1));
+      if (num < nextNum) {
+        sum += nextNum - num;
+        i++;
+      } else {
+        sum += num;
+      }
+      i++;
+    }
+
+//    끝 두자리가 계산 된 경우면 sum 반환, 아니면 sum에 마지막 1글자 더해줘야함.
+    return i == s.length() ? sum : sum + convertRomanToNum(s.charAt(s.length() - 1));
+  }
+
+  public int romanToInt1(String s) {
     HashMap<String, Integer> romanNumerals = new HashMap<>();
     romanNumerals.put("I", 1);
     romanNumerals.put("V", 5);
@@ -36,25 +66,6 @@ public class RomantoInteger_13 {
     }
 
     return sum;
-  }
-
-  public int hyeji2(String s) {
-    int sum = 0, i = 0;
-
-    while (i < s.length() - 1) {
-      int num = convertRomanToNum(s.charAt(i));
-      int nextNum = convertRomanToNum(s.charAt(i + 1));
-      if (num < nextNum) {
-        sum += nextNum - num;
-        i++;
-      } else {
-        sum += num;
-      }
-      i++;
-    }
-
-//    끝 두자리가 계산 된 경우면 sum 반환, 아니면 sum에 마지막 1글자 더해줘야함.
-    return i == s.length() ? sum : sum + convertRomanToNum(s.charAt(s.length() - 1));
   }
 
   int convertRomanToNum(char romanChar) {

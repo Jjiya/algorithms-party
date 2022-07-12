@@ -1,8 +1,20 @@
-package com.party.algorithms.leetcode.easy;
+package com.party.algorithms.leetcode.easy.hyeji.june_5;
 
-public class LongestCommonPrefix_14 {
+import com.party.algorithms.leetcode.easy.hyeji.Solution;
 
-  public String hyeji(String[] strs) {
+public class LongestCommonPrefix_14 implements Solution {
+
+  LongestCommonPrefix_14() {
+    run(this);
+  }
+
+  @Override
+  public void process() {
+    String[] strs = {"flower", "flow", "flight"};
+    longestCommonPrefix(strs);
+  }
+
+  public String longestCommonPrefix(String[] strs) {
     if (strs.length == 1) {
       return strs[0];
     }
@@ -33,5 +45,4 @@ public class LongestCommonPrefix_14 {
 
     return sb.toString();
   }
-
 }
