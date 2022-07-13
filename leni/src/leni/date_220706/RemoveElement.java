@@ -1,7 +1,9 @@
-package leni;
+package leni.date_220706;
 /*
 * URL : https://leetcode.com/problems/remove-element/
 * */
+
+import leni.Solution;
 
 import java.util.Arrays;
 

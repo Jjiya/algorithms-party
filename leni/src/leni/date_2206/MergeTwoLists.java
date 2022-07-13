@@ -1,4 +1,5 @@
-package leni;
+package leni.date_2206;
+import leni.Solution;
 
 class ListNode {
 

@@ -1,7 +1,9 @@
-package leni;
+package leni.date_220706;
 /*
 * URL : https://leetcode.com/problems/implement-strstr/
 * */
+
+import leni.Solution;
 
 public class StrStr implements Solution {
 

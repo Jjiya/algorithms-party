@@ -1,4 +1,4 @@
-package leni;
+package leni.date_220706;
 /*
 * URL : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 *  in-place algorithm(= 제자리 정렬)
@@ -6,9 +6,9 @@ package leni;
 *    - 대표적으로 버블정렬이 있다.
 * */
 
-import java.util.Arrays;
+import leni.Solution;
 
-public class RemoveDuplicates implements Solution{
+public class RemoveDuplicates implements Solution {
 
     RemoveDuplicates(){
         run(this);
