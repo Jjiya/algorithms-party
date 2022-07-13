@@ -19,8 +19,6 @@ public class ReportSolution implements Solution{
          * 3. 신고 승인 된 자를 신고 한 이에게 메일을 발송해야한다.
          */
         int[] answer = new int[id_list.length];
-        // 누가 누구를 신고했는가.
-        Map<String, String> reported = new HashMap<>();
         // 누가 누구에게 신고 당했는가.
         Map<String, List<String>> accused = new HashMap<>();
 
@@ -57,31 +55,8 @@ public class ReportSolution implements Solution{
                 }
             }
         }
-//
-//        // 누가 몇번 신고 당했는지 체크
-//        for(Map.Entry<String, String> ent : reported.entrySet()){
-//            String[] target = ent.getValue().split(",");
-//            for(String str : target){
-//                reportCnt.put(str, reportCnt.get(str)+1);
-//            }
-//        }
-//        System.out.println(reportCnt);
-//
-//
-//        int cnt = 0;
-//        List<String> list = new ArrayList<>();
-//
-//        for(Map.Entry<String, Integer> ent : reportCnt.entrySet()){
-//            if(ent.getValue() >= k){
-//
-//            }
-//        }
-//
-
 
         System.out.println(Arrays.toString(answer));
-
-
 
         return answer;
     }
