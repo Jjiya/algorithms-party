@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class RemoveElement implements Solution {
 
-    RemoveElement(){
+    public RemoveElement(){
         run(this);
     }
 

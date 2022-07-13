@@ -7,7 +7,7 @@ import leni.Solution;
 
 public class StrStr implements Solution {
 
-    StrStr(){
+    public StrStr(){
         run(this);
     }
 

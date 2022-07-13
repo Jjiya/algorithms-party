@@ -10,7 +10,7 @@ import leni.Solution;
 
 public class RemoveDuplicates implements Solution {
 
-    RemoveDuplicates(){
+    public RemoveDuplicates(){
         run(this);
     }
 
