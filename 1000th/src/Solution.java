@@ -10,8 +10,8 @@ public interface Solution {
     default void run(Object obs){
         System.out.println(obs.getClass().getName());
         System.out.println(" - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
-        process();
         System.out.println();
+        process();
     }
 
     void process();

@@ -12,7 +12,8 @@ public class Algorithms {
         new RemoveElement();
         new StrStr();*/
 
-        new ReportSolution();
+//        new ReportSolution();
+        new ChangeSpell();
     }
 
 }
