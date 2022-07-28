@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.july_3;
+package hyeji.july_3;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 public class NumericStringsAndEnglishWords_81301 implements Solution {
   public NumericStringsAndEnglishWords_81301() {

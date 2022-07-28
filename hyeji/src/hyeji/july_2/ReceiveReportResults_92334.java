@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.july_2;
+package hyeji.july_2;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 import java.util.HashMap;
 import java.util.HashSet;

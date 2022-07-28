@@ -1,4 +1,4 @@
-package com.party.algorithms.leetcode.easy.classDefinition;
+package classDefinition;
 
 public class ListNode {
   public int val;

@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.july_2;
+package hyeji.july_2;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 // 신규 아이디 추천
 public class RecommendANewID_72410 implements Solution {

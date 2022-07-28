@@ -1,4 +1,4 @@
-package com.party.algorithms.leetcode.easy.hyeji;
+package hyeji;
 
 public interface Solution {
 

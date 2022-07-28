@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.june_4;
+package hyeji.june_4;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 public class TwoSum_1 implements Solution {
   TwoSum_1() {

@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.june_5;
+package hyeji.june_5;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 public class LongestCommonPrefix_14 implements Solution {
 

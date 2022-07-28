@@ -1,6 +1,6 @@
-package com.party.algorithms.leetcode.easy.hyeji.july_1;
+package hyeji.july_1;
 
-import com.party.algorithms.leetcode.easy.hyeji.Solution;
+import hyeji.Solution;
 
 public class ImplementStrStr_28 implements Solution {
   public ImplementStrStr_28() {
