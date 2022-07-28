@@ -2,6 +2,10 @@ package leni.date_220728;
 
 import leni.Solution;
 
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/81301
+ */
+
 public class 숫자문자열과영단어 implements Solution {
 
     public 숫자문자열과영단어() { run(this); }
@@ -32,22 +36,23 @@ public class 숫자문자열과영단어 implements Solution {
         return Integer.parseInt(s);
     }
 
-    public int solution_wrong(String s){
+    public int solution2(String s){
+        /**
+         *  정규표현식 비교를 시작하면, if 를 한 번 더 타게 되서 느려진다!
+         *  그냥 for 돌리자 ^^.. ㅜ
+         */
 
-        int answer = 0;
 
         for (int idx=0; idx < NUMBERS.length; idx++) {
 
             // 영문자가 포함되어 있는지 검색
             boolean isAllNumbers = !s.matches(".*[a-z|A-Z].*");
             if(isAllNumbers) {
-                answer = Integer.parseInt(s);
                 break;
             }
-
             s = s.replace(NUMBERS[idx], Integer.toString(idx));
         }
 
-        return answer;
+        return Integer.parseInt(s);
     }
 }
