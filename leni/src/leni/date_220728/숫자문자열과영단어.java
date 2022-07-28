@@ -42,7 +42,6 @@ public class 숫자문자열과영단어 implements Solution {
          *  그냥 for 돌리자 ^^.. ㅜ
          */
 
-
         for (int idx=0; idx < NUMBERS.length; idx++) {
 
             // 영문자가 포함되어 있는지 검색
