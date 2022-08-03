@@ -2,8 +2,9 @@ package leni;
 
 
 //import leni.date_220706.*;
-import leni.date_220713.*;
-import leni.date_220728.*;
+//import leni.date_220713.*;
+//import leni.date_220728.*;
+import leni.date_220803.*;
 
 public class AlgoMain {
 
@@ -23,7 +24,10 @@ public class AlgoMain {
         /*new 신고결과받기();*/
 
         // 22-07-28
-        new 숫자문자열과영단어();
+        /*new 숫자문자열과영단어();*/
+
+        // 22-08-03
+        new 카카오인턴_키패드누르기();
 
     }
 }
